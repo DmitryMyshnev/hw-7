@@ -4,12 +4,12 @@ import main.java.shapes.*;
 
 public class Main {
     public static void main(String[] args) {
-        Shapes circle = new Circle();
-        Shapes ellipse = new Ellipse();
-        Shapes quad = new Quad();
-        Shapes rectangle = new Rectangle();
-        Shapes trapeze = new Trapeze();
-        Shapes triangle = new Triangle();
+        Shape circle = new Circle();
+        Shape ellipse = new Ellipse();
+        Shape quad = new Quad();
+        Shape rectangle = new Rectangle();
+        Shape trapeze = new Trapeze();
+        Shape triangle = new Triangle();
 
         ShowParam showParam = new ShowParam();
         System.out.println(showParam.getName(circle));

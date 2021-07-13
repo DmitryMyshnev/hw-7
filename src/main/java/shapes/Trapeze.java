@@ -1,8 +1,8 @@
 package main.java.shapes;
 
-import main.java.Shapes;
+import main.java.Shape;
 
-public class Trapeze extends Shapes {
+public class Trapeze extends Shape {
     private String name = "Trapeze";
 
     @Override

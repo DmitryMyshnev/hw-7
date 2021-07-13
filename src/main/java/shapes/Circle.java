@@ -1,11 +1,11 @@
 package main.java.shapes;
-import main.java.Shapes;
+import main.java.Shape;
 
-public class Circle extends Shapes {
+public class Circle extends Shape {
     private String name = "Circle";
 
     @Override
     public String getName() {
-        return this.name;
+        return name;
     }
 }
