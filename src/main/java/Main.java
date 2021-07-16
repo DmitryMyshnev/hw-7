@@ -12,6 +12,7 @@ public class Main {
         Shape triangle = new Triangle();
 
 
+
         ShowParam showParam = new ShowParam();
         System.out.println(showParam.getName(circle));
         System.out.println(showParam.getName(ellipse));
